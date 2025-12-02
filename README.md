@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="th">
 <head>
   <meta charset="UTF-8">
@@ -34,7 +33,6 @@
   <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
-</html>
 import React, { useState } from 'react';
 import { Role, User, Appointment } from './types';
 import StudentDashboard from './components/StudentDashboard';
@@ -986,3 +984,4 @@ export const getSupportiveAdvice = async (
     return "ระบบ AI กำลังพักผ่อน พยายามใหม่อีกครั้งนะจ๊ะ";
   }
 };
+</html>
